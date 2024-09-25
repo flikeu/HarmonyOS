@@ -3,6 +3,8 @@
     "pages/uploadFile",
     "pages/navigation/index",
     "pages/complexData/index",
-    "pages/complexData/homePage"
+    "pages/complexData/homePage",
+    "pages/complexData/dataChangeNormal",
+    "pages/complexData/dataChangeResponsive"
   ]
 }

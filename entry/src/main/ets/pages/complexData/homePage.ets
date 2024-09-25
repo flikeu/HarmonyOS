@@ -17,7 +17,7 @@ class Goods {
   }
 }
 @Observed
-class ObservedArray<T> extends Array<T>{
+export class ObservedArray<T> extends Array<T>{
   constructor(arr?:T[]) {
     if(arr instanceof Array){
       super(...arr)
