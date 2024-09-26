@@ -5,6 +5,7 @@
     "pages/complexData/index",
     "pages/complexData/homePage",
     "pages/complexData/dataChangeNormal",
-    "pages/complexData/dataChangeResponsive"
+    "pages/complexData/dataChangeResponsive",
+    "pages/JdPractice/index"
   ]
 }
