@@ -6,6 +6,9 @@
     "pages/complexData/homePage",
     "pages/complexData/dataChangeNormal",
     "pages/complexData/dataChangeResponsive",
-    "pages/JdPractice/index"
+    "pages/JdPractice/index",
+    "pages/preferences/index",
+    "pages/fileSelect/index",
+    "pages/fileSelect/type2"
   ]
 }
