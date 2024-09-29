@@ -99,7 +99,6 @@ class ImageUploadModule {
       // 打印标头信息, 这里包含上传的图片访问地址
       console.log("FileUpload:", header['body'])
     })
-
   }
 
   // 对上传图片的全部步骤完成函数封装
