@@ -11,6 +11,9 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },{
+      "name":"useLocation",
+      "value": "为了给您提供更优质的服务，我们需要获取您的位置信息"
     }
   ]
 }

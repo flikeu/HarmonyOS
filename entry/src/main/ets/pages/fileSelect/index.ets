@@ -21,7 +21,7 @@ struct FileSelect {
         })
       })
       Button("上传").onClick((event: ClickEvent) => {
-        imageUploadModule.imageUpload("http://192.168.14.71:1337/api/v1/common/upload_file",'avatar',2)
+        imageUploadModule.imageUpload("http://192.168.14.71:1337/api/v1/common/upload_file","file")
       })
     }.height('100%').width('100%')
   }

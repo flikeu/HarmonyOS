@@ -51,6 +51,13 @@
     "requestPermissions": [
       {
         "name": "ohos.permission.INTERNET"
+      },{
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "reason": "$string:useLocation",
+        "usedScene": {
+          "when": "inuse",
+          "abilities": ["EntryAbility"]
+        }
       }
     ]
   }

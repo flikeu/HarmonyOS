@@ -9,6 +9,9 @@
     "pages/JdPractice/index",
     "pages/preferences/index",
     "pages/fileSelect/index",
-    "pages/fileSelect/type2"
+    "pages/fileSelect/type2",
+    "pages/webViewPractice/index",
+    "pages/position/locationPage",
+    "pages/KVStore/KVStorePage"
   ]
 }

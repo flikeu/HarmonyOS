@@ -94,12 +94,12 @@ class ImageUploadModule {
         promptAction.showToast({ message: "图片上传成功" })
       }
     })
-
     // 这里是监听上传响应的标头
     res.on("headerReceive", (header) => {
       // 打印标头信息, 这里包含上传的图片访问地址
-      console.log("FileUpload:", JSON.stringify(header))
+      console.log("FileUpload:", header['body'])
     })
+
   }
 
   // 对上传图片的全部步骤完成函数封装
