@@ -12,6 +12,8 @@
     "pages/fileSelect/type2",
     "pages/webViewPractice/index",
     "pages/position/locationPage",
-    "pages/KVStore/KVStorePage"
+    "pages/KVStore/KVStorePage",
+    "pages/atips/ATipsPage",
+    "pages/atips/newsDetailPage"
   ]
 }

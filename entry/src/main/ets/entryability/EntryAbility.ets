@@ -2,6 +2,7 @@ import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
 import {PreferenceStore} from "../pages/preferences"
+import { KVStoreTools } from '../pages/KVStore/utils'
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onCreate');
@@ -15,7 +16,7 @@ export default class EntryAbility extends UIAbility {
     // Main window is created, set main page for this ability
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
 
-    windowStage.loadContent('pages/KVStore/KVStorePage', (err) => {
+    windowStage.loadContent('pages/atips/ATipsPage', (err) => {
       if (err.code) {
         hilog.error(0x0000, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');
         return;
@@ -25,6 +26,8 @@ export default class EntryAbility extends UIAbility {
 
     //初始化用户首选项
     PreferenceStore.initPreferences(this.context)
+    //初始化键值对数据存储
+    KVStoreTools.init(this.context)
   }
 
   onWindowStageDestroy(): void {
